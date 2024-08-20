@@ -1,3 +1,5 @@
+> This fork allows modification of the nextRelease object by plugins. It is based on v22.0.12 of the original package
+
 <h1 align="center" style="border-bottom: none;">📦🚀 semantic-release</h1>
 <h3 align="center">Fully automated version management and package publishing</h3>
 <p align="center">
