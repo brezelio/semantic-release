@@ -1,4 +1,13 @@
-> This fork allows modification of the nextRelease object by plugins. It is based on v22.0.12 of the original package
+> This fork allows modification of the nextRelease object by plugins. 
+> 
+> It also respects a possible `dev-` prefix in the tag name in order to support composer pre-release packages that
+> require that prefix in order to be valid. Versions (tags) like `v1.0.0-next.1` will now be properly recognized as 
+> released versions and respected when determining the last version.
+> However, to actually generate such a release with `dev-` prefix, a separate plugin is required that hooks the
+> 'verifyRelease' step to modify the `nextRelease` object accordingly.
+> 
+> -------
+> This fork is based on v22.0.12 of the original package
 
 <h1 align="center" style="border-bottom: none;">📦🚀 semantic-release</h1>
 <h3 align="center">Fully automated version management and package publishing</h3>

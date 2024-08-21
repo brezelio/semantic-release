@@ -1,7 +1,7 @@
 {
   "name": "@brezel/semantic-release",
   "description": "Automated semver compliant package publishing",
-  "version": "22.0.12",
+  "version": "composer-compatible.1",
   "type": "module",
   "author": "Stephan Bönnemann <stephan@boennemann.me> (http://boennemann.me)",
   "ava": {
